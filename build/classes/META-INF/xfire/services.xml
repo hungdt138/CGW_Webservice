@@ -1,0 +1,8 @@
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+  <service>
+    <name>cgw_webservice</name>
+    <namespace>http://iwebservice.elcom.com</namespace>
+    <serviceClass>com.elcom.iwebservice.ChargingService</serviceClass>
+    <implementationClass>com.elcom.iwebservice.ChargingWebserviceImpl</implementationClass>
+  </service>
+</beans>
